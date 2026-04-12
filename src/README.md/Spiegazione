@@ -1,0 +1,10 @@
+Ho scelto di utilizzare quattro entità,
+-Utente
+-Edificio
+-Postazione
+-Prenotazione
+
+Un edificio può contenere più postazioni quindi one to many
+Una postazione può essere associata a più prenotazioni in giorni differenti
+Un utente può effetuare più prenotazioni ma non nello stesso giorno
+Infine la tabella prenotazione funge da collegamento tra utente e postazione
